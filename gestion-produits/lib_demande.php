@@ -16,7 +16,7 @@ function gestion_demandes()
 global $demande, $lien, $utilisateurs;
 
     // D�finir l'affichage de l'ent�te du tableau et du formulaire
-    $main = "<h3>Gestion des demandes</h3><p>";
+    $main = "<h3>Gestion des demandes pepi</h3><p>";
 
 
     /**
