@@ -1,0 +1,30 @@
+Philippe Lachance     04 mai 2016
+
+
+Projet PHP
+
+But du travail: Ajouter l'onglet de demande et permettre au usager d'ajouter une demande.
+
+
+Fichiers utiliser:
+
+index.php
+lib.php
+lib-demande.php
+connexion.php
+template.php
+tbldemandes.sql
+
+
+
+Jimmy Hendrix
+Nom d'Usager: Admin
+Mot de passe: Nimda
+
+Stevie-Ray Vaughan
+Nom d'Usager: Usager
+Mot de passe: mdp
+
+Stephane Poirier
+Nom d'Usager: guit
+Mot de passe: 123
