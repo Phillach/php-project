@@ -3,7 +3,7 @@
 $DB_SERVER="localhost";                         // Adresse du serveur DB
 $DB_LOGIN="root";                               // Nom d'usager pour la connexion DB
 $DB_PASSWORD="";                                // Mot de passe db
-$DB="boisv163";                               // Nom de la db
+$DB="beaul999";                               // Nom de la db
 $HTTP_HOST="localhost";                         // Adresse du serveur Web
 $DOCROOT="/opt/lampp/htdocs/test/infoshop";     // Dossier racine de l'application
 
