@@ -7,14 +7,17 @@
 session_start();
 
 
+
 // �tablir la connexion avec la base de donn�es au d�part
 require_once("connexion.php");
+
 
 
 // Ajouter le lien sur le fichier de fonctions
 // lib.php
 require_once("lib.php");
-require_once("lib2.php");
+require_once("libdemande.php");
+
 
 
 // D�rinir la banni�re de page par d�faut

@@ -1,21 +1,24 @@
-Francis Boisvert     11 mars 2016
+Philippe Lachance     04 mai 2016
 
 
-Projet PHP 
+Projet PHP
 
-But du travail: Ajouter l'onglet demande au site infoshop et permettre au usager d'ajouter des demandes de support
-	
+But du projet: Ajouter des demandes de supports avec un/des usager(s) à l'aide de l'onglet demande.
 
-Fichiers utiliser:
+
+Fichiers utilisers:
 
 index.php
 lib.php
-lib2.php
+libdemande.php
 connexion.php
 template.php
+dbInfoShop.sql
 tbldemandes.sql
 
 
+
+Usagers:
 
 Jimmy Hendrix
 Nom d'Usager: Admin
@@ -23,9 +26,8 @@ Mot de passe: Nimda
 
 Stevie-Ray Vaughan
 Nom d'Usager: Usager
-Mot de passe: mdp	
+Mot de passe: mdp
 
 Stephane Poirier
 Nom d'Usager: guit
 Mot de passe: 123
-

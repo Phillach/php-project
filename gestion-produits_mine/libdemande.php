@@ -1,5 +1,5 @@
 <?php
-// Francis Boisvert
+// Philippe Lachance
 
 /**
  *
@@ -184,14 +184,6 @@ function gestion_demandes()
 
 
 
-
-
-
-
-
-
-
-
 /**
  *
  *   Afficher le formulaire pour ajouter un item
@@ -264,7 +256,7 @@ function gestion_demandes()
               ";
 
   // Transmettre la requete au serveur mysql
-  $reponse = mysql_db_query("boisv163",$requete,$lien);
+  $reponse = mysql_db_query("lacha815",$requete,$lien);
   // v�rifier si une erreur est survenue
   if(($message=mysql_error($lien))!="")
       // Retourner un message d'erreur d'inscription
@@ -273,17 +265,6 @@ function gestion_demandes()
       else
       // Retourner un message que l'op�ration est compl�t�s
         $main = "<b><font color=#00ff00>Enregistrement complete</font>";
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -311,7 +292,7 @@ return $main;
   //Formuler la requ�te pour r�cup�rer tous les informations de l'item s�lectionn�
   $requete = "SELECT * FROM tbldemandes WHERE ID=".$_REQUEST['ID'];
   // Transmettre la requ�te au serveur mysql
-  $reponse = mysql_db_query("boisv163",$requete,$lien);
+  $reponse = mysql_db_query("lacha815",$requete,$lien);
 
   //V�rifier si un message d'erreur est survenue
   if(($message=mysql_error($lien))!="")
@@ -388,7 +369,7 @@ return $main;
 
 
   // Transmettre la requete au serveur mysql
-  $reponse = mysql_db_query("boisv163",$requete,$lien);
+  $reponse = mysql_db_query("lacha815",$requete,$lien);
   // v�rifier si une erreur est survenue
   if(($message=mysql_error($lien))!="")
       // Retourner un message d'erreur d'inscription
@@ -440,7 +421,7 @@ return $main;
   $requete= "DELETE FROM tbldemandes WHERE ID=".$_REQUEST[ID];
 
   // Transmettre la requete au serveur mysql
-  $reponse = mysql_db_query("boisv163",$requete,$lien);
+  $reponse = mysql_db_query("lacha815",$requete,$lien);
   // v�rifier si une erreur est survenue
   if(($message=mysql_error($lien))!="")
       // Retourner un message d'erreur d'inscription

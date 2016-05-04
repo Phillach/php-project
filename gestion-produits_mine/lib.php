@@ -17,6 +17,8 @@
  *
  * */
 
+
+
 $utilisateurs = array("Jimmy",
                     "Hendrix",
                     "admin",
@@ -44,8 +46,6 @@ $utilisateurs = array("Jimmy",
                     "(418)652-2159 #7777",
                     "purple"
                     );
-
-
 
 
 
@@ -91,11 +91,6 @@ return $reponse;
 
 
 
-
-
-
-
-
 /******************************************
  *  LIBRAIRIE PRINCIPALES DES FONCTIONS
  *
@@ -127,11 +122,6 @@ function affiche_accueil()
 // Retourner la l'affichage
 return $main;
 }
-
-
-
-
-
 
 
 
@@ -210,9 +200,6 @@ return $main;
 
 
 
-
-
-
 /**
  *
  *     P A N I E R
@@ -235,19 +222,6 @@ function affiche_panier()
 // Retourner le paner
 return $main;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -337,7 +311,6 @@ else
 
 
 
-
 //Si tous les champs sont compl�t�s correctement alors
 if($_REQUEST['txtPrenom']!="" && $_REQUEST['txtNom']!="" && $_REQUEST['txtNomUsager'] && $_REQUEST['txtMotDePasse']==$_REQUEST['txtConfirmation'] && ($_REQUEST['txtMotDePasse']!="" || $_REQUEST['txtConfirmation']!=""))
     {
@@ -380,21 +353,6 @@ return $message;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  *
  *
@@ -419,9 +377,6 @@ function affiche_a_propos()
     // Retourner l'affichage section � propos
     return $main;
 }
-
-
-
 
 
 
@@ -450,37 +405,6 @@ function affiche_nous_joindre()
 // Retourner la section joidre
 return $main;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -605,14 +529,6 @@ global $produits, $lien;
 
 
 
-
-
-
-
-
-
-
-
 /**
  *
  *   Afficher le formulaire pour ajouter un item
@@ -680,15 +596,6 @@ return $main;
 
 
  }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -779,39 +686,6 @@ return $main;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  /**
  *
  *  Supprimer un item de la base de donn�es
@@ -844,15 +718,6 @@ return $main;
 
 
  }
-
-
-
-
-
-
-
-
-
 
 
 
