@@ -45,14 +45,6 @@ else
 
 
 
-
-
-
-
-
-
-
-
 /**
  * INITIALISATION DU MENU
  * Afficher le menu utilisateur ou le menu administrateur
